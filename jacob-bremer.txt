@@ -124,9 +124,13 @@ Stretch Questions
     The element is removed from the normal document flow and positioned relative to its closest positioned ancestor.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-
-    
+    You can use display: inline-block
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    <div>, <nav>, <p>
+    <span>, <small>
+    <button>
 
     5. In your own words, explain the box model. What is the fix for the box model? 
+    
+    The box model is a way of thinking about websites in terms of boxes. Each HTML element can be though of as a box made up of margin, border, padding, and the content. The fix for the box model is border-box which includes padding and border in the width of the element. 
